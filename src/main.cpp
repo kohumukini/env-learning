@@ -40,6 +40,13 @@ int main() {
             dot.set_y(FLOOR);
             dy = 0;
         }
+
+        if (dot.x() > 120) {
+            dot.set_x(-120);
+        } else if (dot.x() < -120) {
+            dot.set_x(120);
+        }
+
         bn::core::update();
     }
 }
