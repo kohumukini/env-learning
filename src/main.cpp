@@ -14,10 +14,10 @@ int main() {
 
     auto dot = bn::sprite_items::bun.create_sprite(0, 0);
 
-    bn::fixed speed = 1.5;
+    bn::fixed speed = 2.0;
 
     bn::fixed dy = 0;
-    bn::fixed gravity = .03;
+    bn::fixed gravity = .1;
 
     bn::fixed jump_strength = 1.3;
 
